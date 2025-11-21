@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — Deekshith.M</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Resume</h1> <nav>
+        <a href="index.html">Home</a>
+        <a href="resume.html" class="active">Resume</a>
+        <a href="biodata.html">Bio-data</a></nav> </div>
+  </header>
+  <main class="container">
+    <section class="section">
+      <h2>Professional Summary</h2>
+      <p>I am Deekshith.M, a student at Canara Engineering College, skilled in building
+      websites and small applications using HTML, CSS, JavaScript, jQuery, and PHP.</p>
+    </section>
+    <section class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.E —</strong> Canara Engineering College (Ongoing)</li>
+        <li><strong>12th —</strong> SSKC PU Collage</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>Projects</h2>
+      <ol>
+        <li>Dark Web Email Leak Checker — HTML/PHP backend</li>
+        <li>Crop Disease Detection — IoT Sensor Based Project</li> </ol>
+    </section>
+    <section class="section">
+      <h2>Personal Details</h2>
+      <p><strong>Father’s Name:</strong> Mognna Gowda</p>
+      <p><strong>Phone:</strong> 9686033014</p>
+      <p><strong>Email:</strong> deekshithmdeekshithm503@gmail.com</p>
+      <p><strong>Address:</strong> Mysore, karnataka, India</p>
+    </section>
+    <button id="printResume" class="btn">Print / Save as PDF</button>
+  </main>
+  <footer class="site-footer">
+    <div class="container">© 2025</div>
+  </footer>
+  <script>
+    document.getElementById('printResume').addEventListener('click', function(){
+      window.print();
+    });
+  </script>
+</body>
+</html>
